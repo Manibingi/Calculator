@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  background-color: #3b4664;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.heading {
+  color: white;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.input {
+  /* margin-top: 200px;
+  margin-left: 600px; */
+  height: 70px;
+  width: 300px;
+  border-radius: 12px;
+  border: 1px solid #000000;
+  background-color: #000000;
+}
+
+.main-grid {
+  background-color: #252d44;
+  border-radius: 8px;
+}
+
+input,
+textarea {
+  background-color: #181f32;
+  border: none;
+  padding-top: 18px;
+  border-radius: 8px;
+  color: white;
+  height: 70px;
+  width: 350px;
+  padding-right: 38px;
+}
+
+}
+.input{
+    margin-bottom: 20px;
+}
+
+input::placeholder{
+    text-align: end;
+    color: white;
+    font-size: 45px;
+    font-weight: 700;
+     
+}
+
+.grid-container{
+    display: grid;
+    color: white;
+    grid-template-columns: auto auto auto auto;
+    padding: 15px 10px 0 10px;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.grid-item{
+    background: #EAE3DB;
+    color: black;
+    padding: 15px 30px;
+    border-radius: 8px;
+    margin: 10px;
+
+}
+
+.del-item{
+    background: #647299;
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin: 10px;
+    text-align: center;
+}
+
+.grid-container2{
+    display: flex;
+    color: white;
+    /* justify-content: space-between; */
+    padding: 0px 10px 15px 10px;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.item1{
+    background: #647299;
+    padding: 15px 55px;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.item2{
+    background: #D13F30;
+    padding: 15px 75px;
+    border-radius: 8px;
+    margin: 10px;
+
+}
+
+.cursor{
+    text-align: end;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.button{
+    cursor: pointer;
+}
